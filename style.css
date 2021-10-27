@@ -1,0 +1,110 @@
+.main {
+  height: 700px;
+  width: 90%;
+  background-color: rgba(10, 12, 27, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 15px; */
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: 400px;
+  width: 500px;
+  background-color: rgba(28, 25, 56, 255);
+  color: white;
+  /* border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; */
+}
+.cont1 {
+  padding-left: 20px;
+  padding: 20px;
+  /* padding-left: 20px; */
+}
+.cont1 p {
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+.cont1 h1 {
+  font-size: 39px;
+  font-family: "Fira Sans", sans-serif;
+}
+.cont2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+.cont {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.card2 {
+  height: 400px;
+  width: 500px;
+  background-image: url(./images/image-header-desktop.jpg);
+  background-color: rgba(83, 12, 124, 0.541);
+  background-blend-mode: darken;
+  /* border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; */
+}
+.wrd {
+  color: rgba(173, 91, 221, 255);
+}
+.cont2 label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .main {
+    background-color: rgba(10, 12, 27, 255);
+    width: 300;
+    height: 1200px;
+  }
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .card2 {
+    height: 300px;
+    width: 320px;
+    background-image: url(./images/image-header-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(83, 12, 124, 0.541);
+    background-blend-mode: darken;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .card {
+    height: 630px;
+    width: 320px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    background-color: rgba(28, 25, 56, 255);
+  }
+  .cont1 {
+    text-align: center;
+  }
+  .cont2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 3px;
+  }
+  .c2 {
+    padding-top: 20px;
+  }
+  .c3 {
+    padding-top: 20px;
+  }
+}
